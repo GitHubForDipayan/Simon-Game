@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #87b9ee;
+  background-color: #73d8fa;
 }
 
 #level-title {
@@ -29,7 +29,6 @@ body {
 .game-over {
   background-color: red;
   opacity: 0.8;
-  color: whitesmoke;
 }
 
 .red {
@@ -49,6 +48,7 @@ body {
 }
 
 .pressed {
-  box-shadow: 0 0 20px white;
-  background-color: grey;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0 0 10px 10px white;
+  background-color: gray;
 }
